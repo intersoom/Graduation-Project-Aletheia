@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "handFont";
+  src: url("/public/KyoboHandwriting2021sjy.ttf");
+}
+
+#proContainer {
+  /* background-color: #1d976c; */
+  display: flex;
+  justify-content: center;
+  /* position: absolute;
+  top: 100;
+  left: 100; */
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+#progress {
+  appearance: none;
+  width: 120px;
+  /* -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); */
+  transform: translate(10, 10);
+}
+#progress::-webkit-progress-bar {
+  background: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress::-webkit-progress-value {
+  border-radius: 10px;
+  background: #1d976c;
+  background: -webkit-linear-gradient(to right, #93f9b9, #1d976c);
+  background: linear-gradient(to right, #93f9b9, #1d976c);
+}
+
+#progress2 {
+  appearance: none;
+  width: 120px;
+  /* -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); */
+  transform: translate(10, 10);
+}
+#progress2::-webkit-progress-bar {
+  background: #000000;
+  border-radius: 8px;
+  box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress2::-webkit-progress-value {
+  border-radius: 8px;
+  background: #ffffff;
+  background: -webkit-linear-gradient(to right, #f0f0f0, #ffffff);
+  background: linear-gradient(to right, #f0f0f0, #ffffff);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
