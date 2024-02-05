@@ -6,4 +6,4 @@
 [![Aletheia](https://github.com/intersoom/Aletheia/assets/78731710/ac5f813a-68a9-4377-9684-23bcb9236f90)](https://youtu.be/WfItlJGHb7U)
 <br/>사진 클릭시 유투브로 이동
 #### 시연 영상 링크: https://youtu.be/WfItlJGHb7U
-#### 작품 링크: https://love-and-gravity.web.app/start
+#### 작품 링크: https://love-and-gravity.web.app/intro
